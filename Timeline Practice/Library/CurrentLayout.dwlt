@@ -20,7 +20,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 950, y: 542}
+  m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -43,7 +43,7 @@ MonoBehaviour:
     y: 0
     width: 1536
     height: 781
-  m_MinSize: {x: 950, y: 542}
+  m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &3
 MonoBehaviour:
@@ -110,7 +110,7 @@ MonoBehaviour:
   m_MinSize: {x: 713, y: 492}
   m_MaxSize: {x: 18008, y: 14042}
   vertical: 0
-  controlID: 3219
+  controlID: 69
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -134,7 +134,7 @@ MonoBehaviour:
   m_MinSize: {x: 202, y: 342}
   m_MaxSize: {x: 4002, y: 8042}
   vertical: 1
-  controlID: 3220
+  controlID: 70
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -152,7 +152,7 @@ MonoBehaviour:
     x: 0
     y: 0
     width: 913
-    height: 426
+    height: 409
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 14}
@@ -176,9 +176,9 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 426
+    y: 409
     width: 913
-    height: 305
+    height: 322
   m_MinSize: {x: 102, y: 121}
   m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 16}
@@ -207,12 +207,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 913
     y: 0
-    width: 346
+    width: 339
     height: 731
   m_MinSize: {x: 234, y: 492}
   m_MaxSize: {x: 10004, y: 14042}
   vertical: 1
-  controlID: 3197
+  controlID: 110
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -229,10 +229,10 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 346
+    width: 339
     height: 331
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 204, y: 221}
+  m_MaxSize: {x: 4004, y: 4021}
   m_ActualView: {fileID: 19}
   m_Panes:
   - {fileID: 19}
@@ -255,7 +255,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 331
-    width: 346
+    width: 339
     height: 400
   m_MinSize: {x: 234, y: 271}
   m_MaxSize: {x: 10004, y: 10021}
@@ -278,9 +278,9 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1259
+    x: 1252
     y: 0
-    width: 277
+    width: 284
     height: 731
   m_MinSize: {x: 277, y: 71}
   m_MaxSize: {x: 4002, y: 4021}
@@ -313,10 +313,10 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 518
+    y: 501
     width: 911
-    height: 284
-  m_MaximizeOnPlay: 1
+    height: 301
+  m_MaximizeOnPlay: 0
   m_Gizmos: 0
   m_Stats: 0
   m_SelectedSizes: 0b000000000000000000000000000000000000000000000000000000000000000000000000000000
@@ -345,24 +345,24 @@ MonoBehaviour:
       x: 0
       y: 17
       width: 911
-      height: 267
-    m_Scale: {x: 0.33375, y: 0.33375}
-    m_Translation: {x: 455.5, y: 133.5}
+      height: 284
+    m_Scale: {x: 0.355, y: 0.355}
+    m_Translation: {x: 455.5, y: 142}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -1364.794
+      x: -1283.0986
       y: -400
-      width: 2729.588
+      width: 2566.1973
       height: 800
     m_MinimalGUI: 1
-  m_defaultScale: 0.33375
+  m_defaultScale: 0.355
   m_TargetTexture: {fileID: 0}
   m_CurrentColorSpace: 0
-  m_LastWindowPixelSize: {x: 911, y: 284}
+  m_LastWindowPixelSize: {x: 911, y: 301}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000100000100
@@ -391,16 +391,16 @@ MonoBehaviour:
     x: 0
     y: 92
     width: 911
-    height: 405
+    height: 388
   m_SceneLighting: 1
-  lastFramingTime: 607.626230813387
+  lastFramingTime: 2540.952915780356
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 25.918974, y: 25.082226, z: -35.836372}
+    m_Target: {x: -36.123577, y: 0.8995757, z: 41.644306}
     speed: 2
-    m_Value: {x: 25.918974, y: 25.082226, z: -35.836372}
+    m_Value: {x: -36.123577, y: 0.8995757, z: 41.644306}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -423,13 +423,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0.01228837, y: -0.9852386, z: 0.15072732, w: 0.08026687}
+    m_Target: {x: 0.081421964, y: -0.31153214, z: 0.026759287, w: 0.9463865}
     speed: 2
-    m_Value: {x: -0.01228837, y: 0.9852387, z: -0.15072732, w: -0.08026687}
+    m_Value: {x: -0.081421964, y: 0.31153214, z: -0.026759285, w: -0.9463865}
   m_Size:
-    m_Target: 22
+    m_Target: 5.929745
     speed: 2
-    m_Value: 22
+    m_Value: 5.929745
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -490,16 +490,16 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 518
+    y: 501
     width: 911
-    height: 284
+    height: 301
   m_Preferences:
     frameSnap: 1
     edgeSnaps: 1
     playRangeLoopMode: 1
   m_Locked: 0
   m_BreadcrumbPath: []
-  m_HierarchySplitterPerc: 0.2
+  m_HierarchySplitterPerc: 0.15
   m_CurrentMode: 2
   m_LastSelectedObjectID: 0
 --- !u!114 &17
@@ -596,13 +596,13 @@ MonoBehaviour:
     serializedVersion: 2
     x: 915
     y: 92
-    width: 342
+    width: 335
     height: 310
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: a2e1ffff
-    m_LastClickedID: -7774
-    m_ExpandedIDs: 16e1ffff2ae1ffff90e1ffff7af7ffff8efbffff00000000
+    m_SelectedIDs: 
+    m_LastClickedID: 0
+    m_ExpandedIDs: a6fbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -621,7 +621,7 @@ MonoBehaviour:
       m_ClientGUIView: {fileID: 10}
     m_SearchString: 
   m_ExpandedScenes:
-  - lolo
+  - 
   m_CurrenRootInstanceID: 0
   m_Locked: 0
   m_CurrentSortingName: TransformSorting
@@ -680,7 +680,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 915
     y: 423
-    width: 342
+    width: 335
     height: 379
   m_SearchFilter:
     m_NameFilter: 
@@ -694,19 +694,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/military-vehicles/military-vehicles/Stryker/Textures
+    - Assets/Character Model/Material/Advanced
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/military-vehicles/military-vehicles/Stryker/Textures
+  - Assets/Character Model/Material/Advanced
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: D:\portafolio\Proyectos con Unity\Timeline Practice
+  m_LastProjectPath: D:\portafolio\Proyectos con Unity\Unity User Group Morelia\TimeLinePractice\Timeline
+    Practice
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 84270000
-    m_LastClickedID: 10116
-    m_ExpandedIDs: 000000002427000074270000fe270000302800005228000000ca9a3bffffff7f
+    m_SelectedIDs: 94340000
+    m_LastClickedID: 13460
+    m_ExpandedIDs: 00000000dc2800005e2a0000842b0000c62d00008a2f0000ba3100004c330000103800007e3c0000ffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -734,7 +735,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000002427000074270000fe270000302800005228000000ca9a3bffffff7f
+    m_ExpandedIDs: 00000000dc2800005e2a0000842b0000c62d00008a2f0000ba3100004c330000103800007e3c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -762,7 +763,7 @@ MonoBehaviour:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 0
-    m_ExpandedInstanceIDs: c43a00003024000032240000c23400000ebcffff102bffff44320000182d0000d2edfcffa63700009e2d0000a02d000082300000322c000000000000802a00006e2e000008340000
+    m_ExpandedInstanceIDs: c43a00003024000032240000c23400000ebcffff102bffff44320000182d0000d2edfcffa63700009e2d0000a02d000082300000322c0000802a00006e2e00000834000000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -811,9 +812,9 @@ MonoBehaviour:
   m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
-    x: 1261
+    x: 1254
     y: 92
-    width: 275
+    width: 282
     height: 710
   m_ScrollPosition: {x: 0, y: 0}
   m_InspectorMode: 0
@@ -844,7 +845,7 @@ MonoBehaviour:
   m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
-    x: 1261
+    x: 1254
     y: 92
-    width: 275
+    width: 282
     height: 710
